@@ -1,0 +1,83 @@
+body {
+  font-family: "Droid Sans", sans-serif;
+}
+
+/*Header*/
+
+header {
+  background-image: url("subfinder_football.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+
+/*Main*/
+
+main {
+ text-align: center;
+}
+
+section {
+max-width: 450px;
+text-align: left;
+padding: 50px;
+}
+
+.container {
+ width: 100%; 
+}
+
+.left {
+float: left;
+}
+
+.right {
+  float:left;
+}
+
+select {
+  background-color: darkgrey;
+  color: white;
+  font-family: "Droid Sans", sans-serif;
+  font-size: 15px;
+}
+
+
+button {
+  color: white;
+  padding: 10px;
+  border-radius: 25px;
+  border-style: solid;
+  background-color: green;
+  border-color: white;
+  cursor: pointer;
+  transition: 0.6s;
+}
+
+button:hover {
+ color: black; 
+}
+
+/*List*/
+
+li {
+  list-style: none;
+}
+
+
+/*Footer*/
+
+footer {
+  clear: both;
+}
+
+footer p {
+color:darkgrey;
+font-size: 10px;
+}
+
+footer a {
+ text-decoration: none;
+}
