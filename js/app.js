@@ -10,27 +10,22 @@ firebase.initializeApp(config);
 
 // Storing data from Firebase as variable
 
+
 var peopleList = getData();
 
-// Function to print db content to console
-
-function getData() {
-  firebase.database().ref().once('value').then(function (snapshot) {
+function getData(){
+  firebase.database().ref().once('value').then(function(snapshot) {
     peopleList = snapshot.val();
     peopleList = Object.values(peopleList);
-    console.log("Firebase data: " + peopleList)
   });
 }
 
-getData()
-
-
-
-$('#profiles').hide()
+$('#details').hide();
 
 $('button').click( function() { 
   // get user input
   var selectedOption = $('select').val(); // this is jQuery val()
+  console.log(selectedOption)
   // filter people by user selection
   var resultsList = filterAndSortList(peopleList, selectedOption);
   console.log(resultsList);
@@ -39,3 +34,5 @@ $('button').click( function() {
 })
 
 
+
+$('#profiles').hide()
