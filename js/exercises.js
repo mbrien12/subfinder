@@ -4,13 +4,14 @@ function buttonEvent() {
     console.log("hello world");
 }
 
-//If else exercises 1
+//If else exercises 1 - from here http://www.teaching-materials.org/javascript/exercises/ifelse.html 
+
 function greaterNum(num1, num2) {
- if (num1 > num2) {
-     return num1;
- } else {
-     return num2;
- }
+    if (num1 > num2) {
+        return num1;
+    } else {
+        return num2;
+    }
 }
 
 console.log(greaterNum(5, 10));
@@ -53,6 +54,15 @@ console.log("You got a " + assignGrade(60));
 
 //If else exercises 4
 
-function pluralize (noun, number) {
-    
+function pluralize(noun, number) {
+    if (number != 1 && noun != 'sheep' && noun != 'geese') {
+        return number + ' ' + noun + 's';
+    }
+    else {
+        return number + '' + noun;
+    }
 }
+
+console.log('I have ' + pluralize('cat', 0));
+console.log('I have ' + pluralize('cat', 1));
+console.log('I have ' + pluralize('cat', 2));
