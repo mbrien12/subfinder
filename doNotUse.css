@@ -1,0 +1,107 @@
+/*-----------------------GLOBAL-----------------------------------*/
+
+body {
+  font-family: "Droid Sans", sans-serif;
+  margin: 0 auto;
+}
+
+
+h2 {
+  font-size: 40px;
+}
+
+/*-----------------------HEADER-----------------------------------*/
+
+header {
+  background-image: url("assets/subfinder_football.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+
+/*-----------------------MAIN---------------------------------------*/
+
+main {
+ text-align: center;
+}
+
+
+
+#home-text {
+  margin-left: 50px;
+}
+
+/*-----------------------DROPDOWN AND BUTTON---------------------------------------*/
+
+select {
+  background-color: darkgrey;
+  color: white;
+  font-family: "Droid Sans", sans-serif;
+  font-size: 15px;
+  right: 250px;
+  height: 30px;
+  width: 100px;
+}
+
+
+button {
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border-style: solid;
+  background-color: green;
+  border-color: white;
+  cursor: pointer;
+  transition: 0.6s;
+  font-size: 15px;
+}
+
+button:hover {
+ color: black; 
+}
+
+
+
+/*-----------------------GLOBAL BUTTONS AND LINKS---------------------------------------*/
+.button {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:active {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+/*--------------------------------------LIST-------------------------------------*/
+
+li {
+  list-style: none;
+}
+
+
+/*------------------------------------FOOTER--------------------------------------*/
+
+footer {
+  clear: both;
+}
+
+footer p {
+color:darkgrey;
+font-size: 10px;
+}
+
+footer a {
+ text-decoration: none;
+}
