@@ -11,17 +11,19 @@
 
 <body>
 
-  <header>
-    <img src="subfinder_logo.png" alt="subfinder logo">
+  <!--HEADER (BANNER WITH LOGO)-->
+
+  <header id="home">
+    <img src="assets/subfinder_logo.png" alt="subfinder logo">
   </header>
 
   <main>
     <div class="container">
 
-
+      <!--INTRO TEXT-->
       <section class="left">
         <h2>Need an extra player for your team?</h2>
-        <p>
+        <p class=>
           Don't let a last minute dropout ruin the game tonight.
         </p>
 
@@ -29,17 +31,25 @@
           We can quickly match you with a player so that you can have a full team; even if your goalie is hungover once again!
         </p>
 
-        <select>
-      <option>Football</option>
-      <option>Netball</option>
-      <option>Rugby</option>
-      <option>Cricket</option>
+        <!--DROPDOWN MENU-->
+    
+    <div>
+        <select >
+      <option value="football">Football</option>
+      <option value="netball">Netball</option>
+      <option value="rugby">Rugby</option>
+      <option value="cricket">Cricket</option>
     </select>
 
-        <button onclick="buttonEvent()">
+        <button>
       Choose sport
     </button>
+</div>
+    
+
       </section>
+
+      <!--MAP-->
 
       <section class="right">
         <img src="https://www.codeproject.com/KB/web-image/Google_map/sampleMap.JPG" alt="subfinder logo">
@@ -48,12 +58,16 @@
 
     </div>
 
-    <section>
+    <!--PROFILES-->
+
+    <section id="profiles">
+      <a class="button" id="back" href="#">Back</a>
       <ul>
         <li>
           <img src="http://api.randomuser.me/portraits/women/27.jpg">
           <h2>Jo</h2>
           <p>Hi! I'm great in goal!</p>
+           <a class="button" href="#" >Contact Jo</a>
         </li>
 
         <li>
@@ -65,20 +79,23 @@
       </ul>
     </section>
 
-
-
-
-
   </main>
+
+  <!--FOOTER-->
 
   <footer>
     <p>
       Made with love from <a href="#">Michelle</a>
     </p>
   </footer>
+
+ <!--SCRIPTS-->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://www.gstatic.com/firebasejs/3.6.10/firebase.js"></script>
-  <script src="database.js"></script>
-  <script src="script.js"></script>
+  <script src="js/filter-sort.js"></script>
+  <script src="js/show.js"></script>
+   <script src="js/app.js"></script>
 </body>
 
 </html>
