@@ -27,6 +27,8 @@ Things learnt
   - logic to show sport icon on profile page e.g. if netball true show netball
   - hover state on homepage link
   - tidy up file structure
+  - make sure aspect ratio of image is the same 
+  - add email link so that it works properly
 
 
   To make actually usable as a prototype:
