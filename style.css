@@ -11,6 +11,10 @@
   padding: 50px;
 }
 
+
+/* Choose sport banner
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 #choose_sport {
 color: white;
   background-image: url("assets/subfinder_football.jpg");
@@ -34,13 +38,29 @@ color: white;
     -webkit-transition: all 1s;
 }
 
+#home-button {
+  color: white;
+}
 
+#home-button:hover {
+  color: #555;
+}
 
-/* Main
+#home-button:visited {
+  color: red;
+}
+
+/* Results list
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-main {
-  padding: 20px 20px;
+.results {
+  display: inline-block;
+  color: #555;
+  padding: 20px;
+}
+
+.results > li:first-child { 
+    left-padding: 20px;
 }
 
 

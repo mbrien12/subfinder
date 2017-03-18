@@ -13,8 +13,9 @@ function makeListItemHTML (data, index)
   */
 
   // li = List Item
-  var li  = '<li id="' + index + '">' 
+  var li  = '<li class="results" id="' + index + '">' 
   + '<h2>' + data.firstName + '</h2>' 
+  + '<img src="' + data.image + '">' 
   + '</li>'        
 
   return li;        
@@ -39,12 +40,19 @@ function makeDetailsHTML (data)
   + '<img src="' + data.image + '">' 
   + '<div class="about">' + data.about + '</div>'
   + '<button id="message">Message ' + data.firstName + ' now</button>' 
+  + '<button id="back">Back</button>'
 
   return html;        
 }
 
-
-
+/* Attempt to add back button functionaliy - not working though
+$(document).ready(function(){
+	$('#back').click(function(){
+		parent.history.back();
+		return false;
+	});
+});
+*/ 
 
 
 
