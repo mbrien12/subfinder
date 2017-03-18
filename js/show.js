@@ -36,25 +36,25 @@ function makeDetailsHTML (data)
     <button id="submit">Message Matteo now</button>
   */
 
-  var html = '<h2>' + data.firstName  + '</h2>' 
+  var html = '<div class="profile">'
+  + '<h2>' + data.firstName  + '</h2>' 
   + '<img src="' + data.image + '">' 
   + '<div class="about">' + data.about + '</div>'
   + '<button id="message">Message ' + data.firstName + ' now</button>' 
-  + '<button id="back">Back</button>'
+  + '</div>'
 
   return html;        
 }
 
-/* Attempt to add back button functionaliy - not working though
-$(document).ready(function(){
-	$('#back').click(function(){
-		parent.history.back();
-		return false;
-	});
-});
-*/ 
+
+/* Back button*/
+
+$('#back').click( function(){
+$('#home').show(); $('#details').hide(); });
 
 
+
+/* Show list*/
 
 function showList (list) 
 {

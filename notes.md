@@ -24,3 +24,6 @@ Things learnt
 
  Need to do next
   - 'visited' state not working in css
+  - add H1 or explainer to results page
+  - add nav to profile page (not in skeleton framework) - done but could probably look nicer...(now changed to back button which not very semantic)
+  - logic to show sport icon on profile page e.g. if netball true show netball
