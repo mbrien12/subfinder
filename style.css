@@ -1,4 +1,18 @@
 
+/* Global
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+
 /* Header
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -62,19 +76,20 @@ color: white;
   margin-left: 25%;
 }
 
-/* Navigation bar on profile page
+/* Navigation header
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-#back {
+nav {
 	width: 100%;
   color: white;
 	float: left;
-	margin: 0 0 3em 0;
 	padding: 10px;
+  margin-bottom: 50px;
 	list-style: none;
 	background-color: #45ADA8;
 	border-bottom: 1px solid #ccc; 
-	border-top: 1px solid #ccc; }
+	border-top: 1px solid #ccc; 
+  }
+
 
   /*Profile
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -92,10 +107,27 @@ padding: 20px;
 #back {
   margin-right: 50px;
 }
-/* Footer
+
+/* Back button - footer
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-footer {
-  margin: 20px;
+#back {
+  position: fixed;
+  bottom: 0px;
+	width: 100%;
+  color:#555;
+	float: left;
+	padding: 10px;
+	list-style: none;
+	background-color: #E8E8EE;;
+   }
+
+
+  /*Nav on About page
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#about-nav > a {
+  font-weight: bold;
 }
+
 

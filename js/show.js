@@ -16,7 +16,8 @@ function makeListItemHTML (data, index)
   var li  = '<li class="results" id="' + index + '">' 
   + '<h2>' + data.firstName + '</h2>' 
   + '<img src="' + data.image + '">' 
-  + '</li>'        
+  + '</li>'
+        
 
   return li;        
 }

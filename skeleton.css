@@ -158,7 +158,9 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1EAEDB; }
+  color: #1EAEDB;
+  cursor: pointer;
+     }
 a:hover {
   color: #0FA0CE; }
 
@@ -305,7 +307,9 @@ ol ul {
   margin: 1.5rem 0 1.5rem 3rem;
   font-size: 90%; }
 li {
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  cursor: pointer;
+   }
 
 
 /* Code
