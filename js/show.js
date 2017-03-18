@@ -1,3 +1,5 @@
+console.log("show js is working");
+
 function makeListItemHTML (data, index) 
 {
   /*
@@ -12,7 +14,7 @@ function makeListItemHTML (data, index)
 
   // li = List Item
   var li  = '<li id="' + index + '">' 
-  + '<h2>' + data.name + '</h2>' 
+  + '<h2>' + data.firstName + '</h2>' 
   + '</li>'        
 
   return li;        
@@ -33,13 +35,17 @@ function makeDetailsHTML (data)
     <button id="submit">Message Matteo now</button>
   */
 
-  var html = '<h2>' + data.name  + '</h2>' 
+  var html = '<h2>' + data.firstName  + '</h2>' 
   + '<img src="' + data.image + '">' 
   + '<div class="about">' + data.about + '</div>'
-  + '<button id="message">Message ' + data.name + ' now</button>' 
+  + '<button id="message">Message ' + data.firstName + ' now</button>' 
 
   return html;        
 }
+
+
+
+
 
 
 function showList (list) 

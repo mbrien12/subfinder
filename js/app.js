@@ -34,5 +34,3 @@ $('button').click( function() {
 })
 
 
-
-$('#profiles').hide()

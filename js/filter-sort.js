@@ -1,3 +1,5 @@
+console.log("filter js is working");
+
 /**
  *
  * Usage:

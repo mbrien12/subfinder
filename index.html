@@ -6,96 +6,101 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Subfinder</title>
   <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="skeleton.css">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <!--HEADER (BANNER WITH LOGO)-->
+  <!--HEADER (BANNER WITH LOGO)
 
-  <header id="home">
+  <header>
     <img src="assets/subfinder_logo.png" alt="subfinder logo">
-  </header>
+  </header> -->
 
   <main>
-    <div class="container">
 
-      <!--INTRO TEXT-->
-      <section class="left">
-        <h2>Need an extra player for your team?</h2>
-        <p class=>
+    <section id="home">
+
+      <!--HERO-->
+
+      <div class="container" id="hero">
+
+        <div class="row">
+          <div class="nine columns">
+            <h1><strong>SubFinder<strong></h1>
+            <h2>Need an extra player for your team?</h2>
+            <a class="button button-primary" href="#">Find a player today</a>
+          </div>
+          <div class="three columns">
+            <img src="assets/sport_hero.png" id=hero_image alt="football cartoon">
+          </div>
+        </div>
+      </div>
+
+      <!--Image test-->
+
+    <div id="choose_sport">
+      <div class="overlay">
+        
+      <div class="container">
+       <h4>
           Don't let a last minute dropout ruin the game tonight.
-        </p>
+        </h4>
 
         <p>
           We can quickly match you with a player so that you can have a full team; even if your goalie is hungover once again!
         </p>
+        
+      </div>
 
-        <!--DROPDOWN MENU-->
-    
-    <div>
-        <select >
-      <option value="football">Football</option>
-      <option value="netball">Netball</option>
-      <option value="rugby">Rugby</option>
-      <option value="cricket">Cricket</option>
-    </select>
+         <!--CHOOSE SPORT-->
+   
+          <select>
+            <option value="football">Football</option>
+            <option value="netball">Netball</option>
+            <option value="rugby">Rugby</option>
+          </select>
 
-        <button>
-      Choose sport
-    </button>
-</div>
-    
+          <button>
+            Choose sport
+          </button>
+          </div>
 
-      </section>
+        </div>
+        <ul>
+        </ul>
 
-      <!--MAP-->
-
-      <section class="right">
-        <img src="https://www.codeproject.com/KB/web-image/Google_map/sampleMap.JPG" alt="subfinder logo">
-      </section>
-
-
-    </div>
-
-    <!--PROFILES-->
-
-    <section id="profiles">
-      <a class="button" id="back" href="#">Back</a>
-      <ul>
-        <li>
-          <img src="http://api.randomuser.me/portraits/women/27.jpg">
-          <h2>Jo</h2>
-          <p>Hi! I'm great in goal!</p>
-           <a class="button" href="#" >Contact Jo</a>
-        </li>
-
-        <li>
-          <img src="http://api.randomuser.me/portraits/men/33.jpg">
-          <h2>Steve</h2>
-          <p>I used to play for Chelsea</p>
-        </li>
-
-      </ul>
+      </div>
     </section>
 
+   </div>
+  
+   
+
+    <!--DETAILS-->
+
+    <section id="details">
+      <div class="info"></div>
+    </section>
   </main>
 
-  <!--FOOTER-->
+  <!--FOOTER
 
   <footer>
     <p>
       Made with love from <a href="#">Michelle</a>
     </p>
-  </footer>
+  </footer>-->
 
- <!--SCRIPTS-->
+  <!--SCRIPTS-->
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://www.gstatic.com/firebasejs/3.6.10/firebase.js"></script>
   <script src="js/filter-sort.js"></script>
   <script src="js/show.js"></script>
-   <script src="js/app.js"></script>
+  <script src="js/app.js"></script>
 </body>
 
 </html>
