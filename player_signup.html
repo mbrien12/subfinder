@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Subfinder</title>
+    <link rel="icon" type="image/png" href="assets/subfinder_favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="skeleton.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main>
+        <nav id="about-nav"><a href="index.html"> S U B F I N D E R</a></nav>
+
+        <!--About content-->
+
+        <div class="container" id="hero">
+
+            <div class="row">
+                <div class="nine columns">
+                    <h1>Want to join a team?</h1>
+                    <h3>Register here</h3>
+
+                        <form action="" method="post">
+
+
+                            <p>
+                                What's your <b>first name</b>?
+                                <input name="firstName" type="text"
+                                    placeholder="e.g. Billie">
+                            </p>
+
+                            <p>
+                                What's your <b>surname</b>? <input name="surname" type="text" placeholder="e.g. Smith">
+                            </p>
+
+                            <p>
+                                What's your <b>email</b>? <input name="email" type="text" placeholder="e.g.billie@gmail.com">
+                            </p>
+
+                            <h3>
+                                Sport type
+                            </h3>
+
+                            <p>
+                                <b>Football</b>
+                                <input type="checkbox" value="true" name="football">
+                            </p>
+
+                            <p>
+                                <b>Netball</b>
+                                <input type="checkbox" value="true" name="netball">
+                            </p>
+
+                            <p>
+                                <b>Rugby</b>
+                                <input type="checkbox" value="true" name="rugby">
+                            </p>
+
+
+
+
+
+
+                            <p>
+                                How <b>experienced</b> are you at this sport (0-5)?
+                                <input name="sportSkills" type="number" min="0" max="5">
+                            </p>
+
+
+                            <p>
+                                A <b>blurb</b> about you<br>
+                                <textarea name="about"></textarea>
+                            </p>
+
+
+                            <p>
+                            Please include an <b>image</b> URL <input name="image" type="url">
+                            </p>
+
+                            <p>
+                                <button type="submit">Sign up!</button>
+                            </p>
+                        </form>
+
+               
+
+                </div>
+            </div>
+        </div>
+
+
+
+    </main>
+
+
+
+
+    <!--SCRIPTS-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.6.10/firebase.js"></script>
+    <script src="js/filter-sort.js"></script>
+    <script src="js/show.js"></script>
+    <script src="js/app.js"></script>
+
+
+                        <!-- Pusher scripts from Thimble -->
+                        <script src="https://cdn.firebase.com/js/client/2.4.0/firebase.js"></script>
+                        <script src="js/pusher/jquery.getFormData.js"></script>
+                        <script src="js/pusher/pusher.js"></script>
+
+</body>
+
+</html>

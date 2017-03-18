@@ -21,9 +21,15 @@ Things learnt
 
   ## 18.03.17
 
-
  Need to do next
-  - 'visited' state not working in css
-  - add H1 or explainer to results page
-  - add nav to profile page (not in skeleton framework) - done but could probably look nicer...(now changed to back button which not very semantic)
+  - 'visited' state not working in css 
+  - add H1 or explainer to results page - should say specific sport name 
   - logic to show sport icon on profile page e.g. if netball true show netball
+  - hover state on homepage link
+  - tidy up file structure
+
+
+  To make actually usable as a prototype:
+   -  need to consider both users - the players also. Have two way sign up
+   -  need way to submit data - use pusher html?
+   - needs to actually explain the proposition and what it does
