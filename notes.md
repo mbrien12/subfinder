@@ -19,3 +19,19 @@ Things learnt
   - add back button 
   - fix button css (currently pulling through white - have id for homepage one)
 
+  ## 18.03.17
+
+ Need to do next
+  - 'visited' state not working in css 
+  - add H1 or explainer to results page - should say specific sport name 
+  - logic to show sport icon on profile page e.g. if netball true show netball
+  - hover state on homepage link
+  - tidy up file structure
+  - make sure aspect ratio of image is the same 
+  - add email link so that it works properly
+
+
+  To make actually usable as a prototype:
+   -  need to consider both users - the players also. Have two way sign up
+   -  need way to submit data - use pusher html?
+   - needs to actually explain the proposition and what it does

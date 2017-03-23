@@ -13,9 +13,11 @@ function makeListItemHTML (data, index)
   */
 
   // li = List Item
-  var li  = '<li id="' + index + '">' 
+  var li  = '<li class="results" id="' + index + '">' 
   + '<h2>' + data.firstName + '</h2>' 
-  + '</li>'        
+  + '<img src="' + data.image + '">' 
+  + '</li>'
+        
 
   return li;        
 }
@@ -35,18 +37,25 @@ function makeDetailsHTML (data)
     <button id="submit">Message Matteo now</button>
   */
 
-  var html = '<h2>' + data.firstName  + '</h2>' 
+  var html = '<div class="profile">'
+  + '<h2>' + data.firstName  + '</h2>' 
   + '<img src="' + data.image + '">' 
   + '<div class="about">' + data.about + '</div>'
   + '<button id="message">Message ' + data.firstName + ' now</button>' 
+  + '</div>'
 
   return html;        
 }
 
 
+/* Back button*/
+
+$('#back').click( function(){
+$('#home').show(); $('#details').hide(); });
 
 
 
+/* Show list*/
 
 function showList (list) 
 {

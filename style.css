@@ -1,4 +1,22 @@
 
+/* Global
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+img {
+  height: 128px;
+  width: 128px;
+}
+
 /* Header
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -10,6 +28,10 @@
   text-align: left;
   padding: 50px;
 }
+
+
+/* Choose sport banner
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 #choose_sport {
 color: white;
@@ -34,20 +56,88 @@ color: white;
     -webkit-transition: all 1s;
 }
 
+#home-button {
+  color: white;
+}
 
+#home-button:visited {
+  color: red;
+}
 
-/* Main
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-main {
-  padding: 20px 20px;
+#home-button:hover {
+  color: #555;
 }
 
 
-/* Footer
+
+/* Results list
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+.results {
+  display: inline-block;
+  color: #555;
+  padding: 20px;
+  margin-left: 25%;
+}
+
+/* Navigation header
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+nav {
+	width: 100%;
+  color: white;
+	float: left;
+	padding: 10px;
+  margin-bottom: 50px;
+	list-style: none;
+	background-color: #45ADA8;
+	border-bottom: 1px solid #ccc; 
+	border-top: 1px solid #ccc; 
+  }
+
+
+  /*Profile
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.profile {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.about {
+padding: 20px;
+}
+
+#back {
+  margin-right: 50px;
+}
+
+/* Back button - footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#back {
+  position: fixed;
+  bottom: 0px;
+	width: 100%;
+  color:#555;
+	float: left;
+	padding: 10px;
+	list-style: none;
+	background-color: #E8E8EE;;
+   }
+
+
+  /*Nav on About page
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#about-nav > a {
+  font-weight: bold;
+}
+
+
+  /*Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 footer {
-  margin: 20px;
+  font-weight: normal;
+  padding: 20px;
 }
-
