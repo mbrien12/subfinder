@@ -9,8 +9,13 @@ a {
 
 a:visited {
   text-decoration: none;
-  color: white;
+  color:white;
 }
+
+.thumbnail {
+  width: 128px;
+}
+
 
 img {
   height: 128px;
@@ -57,14 +62,7 @@ color: white;
 }
 
 #home-button {
-  color: white;
-}
-
-#home-button:visited {
-  color: red;
-}
-
-#home-button:hover {
+  background-color: white;
   color: #555;
 }
 
@@ -111,6 +109,13 @@ padding: 20px;
 #back {
   margin-right: 50px;
 }
+
+
+#message > a {
+  color: #555;
+}
+
+
 
 /* Back button - footer
 –––––––––––––––––––––––––––––––––––––––––––––––––– */

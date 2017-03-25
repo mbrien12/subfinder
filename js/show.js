@@ -41,7 +41,7 @@ function makeDetailsHTML (data)
   + '<h2>' + data.firstName  + '</h2>' 
   + '<img src="' + data.image + '">' 
   + '<div class="about">' + data.about + '</div>'
-  + '<button id="message">Message ' + data.firstName + ' now</button>' 
+  + '<button id="message"><a href="mailto:' + data.email + '?Subject=Subfinder request" target="_top">Email ' + data.firstName + ' now</a></button>' 
   + '</div>'
 
   return html;        
