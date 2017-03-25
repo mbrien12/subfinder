@@ -8,7 +8,7 @@ This is a project app from a HTML, CSS and Javascript course at Ravensbourne Col
 
 ## What problem is it solving?
 
-####For teams 
+#### For teams 
  - it can often be disappointing to turn up to a game without a full team. Subfinder means that teams don't need to be a man or woman down for the big game.
 
 #### For individuals
