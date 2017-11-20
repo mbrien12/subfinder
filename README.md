@@ -2,6 +2,13 @@
 
 This is a project app from a HTML, CSS and Javascript course at Ravensbourne College. Working to develop further as a functional prototype.
 
+Preview here
+
+😞 **19th November update** <br>
+Firebase seems to be broken so will not let you view profiles - need to fix!
+
+![homepage image](/assets/homepage_readme.png?raw=true)
+
 ## Who's it for?
 1. Sports teams who need a last minute player for their game.
 2. Individuals who want to play sport every so often, but don't want to commit to a team.
@@ -20,7 +27,9 @@ This is a project app from a HTML, CSS and Javascript course at Ravensbourne Col
   - HTML
   - CSS (with Skeleton framework)
   - Javascript 
+  - Firebase
 
   ## Roadmap
    - Ability to leave feedback and ratings 
    - Search via location 
+
