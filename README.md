@@ -2,7 +2,7 @@
 
 This is a project app from a HTML, CSS and Javascript course at Ravensbourne College. Working to develop further as a functional prototype.
 
-Preview here
+[Preview here](https://powerful-bastion-71543.herokuapp.com/index.html)
 
 😞 **19th November update** <br>
 Firebase seems to be broken so will not let you view profiles - need to fix!
